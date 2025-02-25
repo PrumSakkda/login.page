@@ -1,0 +1,106 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: #FF69B4;
+}
+
+.form{
+    width: 320px;
+    box-shadow: 0px 0px 1px 1px whitesmoke;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #FFB6C1;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.control {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 15px;
+    color: white;
+    border: none;
+}
+
+.text {
+    text-align: left;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.item {
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    margin-block: 5px;
+}
+.text2{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 65px;
+    margin-block: 20px;
+    text-align: center;
+}
+.text3{
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        margin-left: 170px;
+        margin-block-start: 20px;
+        text-align: center;
+}
+.login {
+    background: linear-gradient(45deg, #C0C0C0, #EEE8AA);
+    color: black;
+    height: 35px;
+    width: 300px;
+    margin-left: 15px;
+    margin-block: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px whitesmoke;
+    border: none;
+}
+.signup{
+    background: linear-gradient(45deg, #d136cd, #ee4e63);
+    color: white;
+    height: 35px;
+    width: 300px;
+    margin-left: 15px;
+    margin-block-end: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px whitesmoke;
+    border: none;
+}
+.login:hover{
+    background:#C0C0C0;
+    color: white;
+    transform: 0.5s;
+}
+.signup:hover{
+    background:#d136cd;
+    color: black;
+    transform: 0.5s;
+}
+a:hover{
+    color: black;
+}
+.text2:hover{
+    background-color: white;
+    border: none;
+}
+.text3:hover{
+    background-color: white;
+    border: whitesmoke;
+}
